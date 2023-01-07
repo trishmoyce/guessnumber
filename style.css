@@ -1,0 +1,35 @@
+#headerspace {
+    background-color: pink;
+    height: 50px;
+}
+
+h1 {
+    color: red;
+}
+
+#playspace {
+    background-color: lightgreen;
+    height: 30px;
+}
+
+#playagainbtn {
+    display: none;
+}
+
+#guessspacecoozy {
+    background-color: paleturquoise;
+    height: 125px;
+}
+
+#guessspace {
+    display: none;
+}
+
+h3 {
+    color: blue;
+}
+
+#resultsspace {
+    background-color: palegoldenrod;
+    height: 30px;
+}
