@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Guess the Number!</title>
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
 </head>
@@ -18,9 +18,11 @@
     </div>
     <div id="guessspacecoozy">
         <div id="guessspace">
-            <h3>Enter a number between 1-10</h3>
-            <input type="number" name="guessinput" id="guessinput">
-            <button id="submitbtn">Submit</button>
+            <h3>Enter a number between 1 and 10</h3>
+                <div id="inputandbtn">
+                    <input type="number" name="guessinput" id="guessinput" min="1" max="10">
+                    <button id="submitbtn">Submit</button>
+                </div>
         </div>
     </div>
     <div id="resultsspace">

@@ -1,15 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Coustard&display=swap");
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
 #headerspace {
     background-color: pink;
-    height: 50px;
+    height: 85px;
 }
 
 h1 {
     color: red;
+    font-family: "Coustard", serif;
+    font-size: 60px;
+    text-align: center;
 }
 
 #playspace {
+    align-items: center;
     background-color: lightgreen;
-    height: 30px;
+    display: flex;
+    justify-content: center;
+    height: 75px;
+}
+
+#playbtn, #playagainbtn {
+    background-color: mediumseagreen;
+    border: none;
+    color: green;
+    font-family: "Coustard", serif;
+    font-size: 40px;
+    padding: 3px 18px;
 }
 
 #playagainbtn {
@@ -23,13 +66,54 @@ h1 {
 
 #guessspace {
     display: none;
+    padding: 10px;
+}
+
+#inputandbtn {
+    align-items: center;
+    background-color: mediumturquoise;
+    display: grid;
+    gap: 6px;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin: 0 auto;
+    width: 250px;
+}
+
+#guessinput {
+    height: 40px;
+    font-size: 35px;
+    text-align: center;
+    width: 70px
+}
+
+#submitbtn {
+    background-color: teal;
+    border: none;
+    font-family: "Coustard", serif;
+    font-size: 25px;
+    height: 40px;
+    padding: 3px 15px;
 }
 
 h3 {
     color: blue;
+    font-family: "Coustard", serif;
+    font-size: 30px;
+    text-align: center;
 }
 
 #resultsspace {
+    align-items: center;
     background-color: palegoldenrod;
-    height: 30px;
+    display: flex;
+    justify-content: center;
+    height: 85px;
+}
+
+#results {
+    color: darkgoldenrod;
+    font-family: "Coustard", serif;
+    font-size: 65px;
+    text-align: center;
 }
