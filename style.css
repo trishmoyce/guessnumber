@@ -26,13 +26,17 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+body {
+    background-color: #86a873;
+}
+
 #headerspace {
-    background-color: pink;
+    background-color: #095256;
     height: 85px;
 }
 
 h1 {
-    color: red;
+    color: #087f8c;
     font-family: "Coustard", serif;
     font-size: 60px;
     text-align: center;
@@ -40,16 +44,17 @@ h1 {
 
 #playspace {
     align-items: center;
-    background-color: lightgreen;
+    background-color: #087f8c;
     display: flex;
     justify-content: center;
-    height: 75px;
+    height: 100px;
 }
 
 #playbtn, #playagainbtn {
-    background-color: mediumseagreen;
+    background-color: #bb9f06;
     border: none;
-    color: green;
+    box-shadow: 8px 8px 6px -3px rgba(9,82,86,0.71);
+    color: #087f8c;
     font-family: "Coustard", serif;
     font-size: 40px;
     padding: 3px 18px;
@@ -60,7 +65,7 @@ h1 {
 }
 
 #guessspacecoozy {
-    background-color: paleturquoise;
+    background-color: #5aaa95;
     height: 125px;
 }
 
@@ -71,9 +76,8 @@ h1 {
 
 #inputandbtn {
     align-items: center;
-    background-color: mediumturquoise;
     display: grid;
-    gap: 6px;
+    gap: 12px;
     grid-template-columns: auto auto;
     justify-content: center;
     margin: 0 auto;
@@ -81,15 +85,19 @@ h1 {
 }
 
 #guessinput {
+    border: 1px solid #087f8c;
     height: 40px;
     font-size: 35px;
+    outline: none;
     text-align: center;
     width: 70px
 }
 
 #submitbtn {
-    background-color: teal;
+    background-color: #bb9f06;
     border: none;
+    box-shadow: 8px 8px 6px -3px rgba(9,82,86,0.71);
+    color: #087f8c;
     font-family: "Coustard", serif;
     font-size: 25px;
     height: 40px;
@@ -97,7 +105,7 @@ h1 {
 }
 
 h3 {
-    color: blue;
+    color: #095256;
     font-family: "Coustard", serif;
     font-size: 30px;
     text-align: center;
@@ -105,14 +113,14 @@ h3 {
 
 #resultsspace {
     align-items: center;
-    background-color: palegoldenrod;
+    background-color: #86a873;
     display: flex;
     justify-content: center;
-    height: 85px;
+    height: 100px;
 }
 
 #results {
-    color: darkgoldenrod;
+    color: #087f8c;
     font-family: "Coustard", serif;
     font-size: 65px;
     text-align: center;
